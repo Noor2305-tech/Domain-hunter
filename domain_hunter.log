@@ -1,0 +1,659 @@
+2025-07-14 17:45:40,306 - database - INFO - Database initialized successfully
+2025-07-14 17:46:34,521 - seo_analyzer - INFO - Analyzing SEO metrics for domain: photoblog.net
+2025-07-14 17:46:34,522 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:46:34,522 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:46:34,522 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:46:34,523 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:46:34,552 - content_analyzer - INFO - Analyzing content for domain: photoblog.net
+2025-07-14 17:47:04,586 - content_analyzer - ERROR - Error getting Wayback content for photoblog.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=photoblog.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a4569190>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:47:04,888 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:47:04,976 - domain_scorer - INFO - Domain photoblog.net scored: 29.31 (SEO: 38.8, Content: 0.0, Brandability: 75.0, Spam: 12.0)
+2025-07-14 17:47:05,135 - seo_analyzer - INFO - Analyzing SEO metrics for domain: techreview.net
+2025-07-14 17:47:05,136 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:47:05,136 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:47:05,136 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:47:05,137 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:47:05,164 - content_analyzer - INFO - Analyzing content for domain: techreview.net
+2025-07-14 17:47:35,198 - content_analyzer - ERROR - Error getting Wayback content for techreview.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=techreview.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a1d6b6d0>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:47:35,337 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:47:35,419 - domain_scorer - INFO - Domain techreview.net scored: 37.63 (SEO: 58.6, Content: 0.0, Brandability: 85.0, Spam: 28.0)
+2025-07-14 17:48:53,176 - seo_analyzer - INFO - Analyzing SEO metrics for domain: travelblog.co
+2025-07-14 17:48:53,178 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:48:53,178 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:48:53,178 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:48:53,179 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:48:53,209 - content_analyzer - INFO - Analyzing content for domain: travelblog.co
+2025-07-14 17:49:23,248 - content_analyzer - ERROR - Error getting Wayback content for travelblog.co: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=travelblog.co&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39fd990>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:49:23,587 - content_analyzer - ERROR - Error getting current content for travelblog.co: HTTPConnectionPool(host='travelblog.co', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f49a39fc7d0>: Failed to resolve 'travelblog.co' ([Errno -3] Temporary failure in name resolution)"))
+2025-07-14 17:49:23,668 - domain_scorer - INFO - Domain travelblog.co scored: 35.34 (SEO: 57.2, Content: 0.0, Brandability: 75.0, Spam: 25.5)
+2025-07-14 17:49:23,827 - seo_analyzer - INFO - Analyzing SEO metrics for domain: healthtips.net
+2025-07-14 17:49:23,828 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:49:23,829 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:49:23,829 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:49:23,829 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:49:23,882 - seo_analyzer - INFO - Analyzing SEO metrics for domain: musicworld.net
+2025-07-14 17:49:23,883 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:49:23,883 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:49:23,883 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:49:23,884 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:49:23,908 - content_analyzer - INFO - Analyzing content for domain: musicworld.net
+2025-07-14 17:49:53,942 - content_analyzer - ERROR - Error getting Wayback content for musicworld.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=musicworld.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39f4250>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:49:54,160 - domain_scorer - INFO - Domain musicworld.net scored: 31.22 (SEO: 42.1, Content: 0.0, Brandability: 75.0, Spam: 6.0)
+2025-07-14 17:49:54,319 - seo_analyzer - INFO - Analyzing SEO metrics for domain: newstoday.net
+2025-07-14 17:49:54,322 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:49:54,323 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:49:54,323 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:49:54,323 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:49:54,349 - content_analyzer - INFO - Analyzing content for domain: newstoday.net
+2025-07-14 17:50:24,387 - content_analyzer - ERROR - Error getting Wayback content for newstoday.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=newstoday.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39f6b50>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:50:24,531 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:50:24,702 - domain_scorer - INFO - Domain newstoday.net scored: 28.82 (SEO: 43.2, Content: 0.0, Brandability: 75.0, Spam: 34.5)
+2025-07-14 17:50:24,875 - seo_analyzer - INFO - Analyzing SEO metrics for domain: businesstips.org
+2025-07-14 17:50:24,876 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:50:24,876 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:50:24,876 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:50:24,876 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:50:24,902 - content_analyzer - INFO - Analyzing content for domain: businesstips.org
+2025-07-14 17:50:54,936 - content_analyzer - ERROR - Error getting Wayback content for businesstips.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=businesstips.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39f4990>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:50:55,103 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:50:55,175 - domain_scorer - INFO - Domain businesstips.org scored: 38.72 (SEO: 61.5, Content: 0.0, Brandability: 75.0, Spam: 9.0)
+2025-07-14 17:50:55,337 - seo_analyzer - INFO - Analyzing SEO metrics for domain: gamingworld.com
+2025-07-14 17:50:55,337 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:50:55,337 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:50:55,338 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:50:55,338 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:50:55,366 - content_analyzer - INFO - Analyzing content for domain: gamingworld.com
+2025-07-14 17:51:25,401 - content_analyzer - ERROR - Error getting Wayback content for gamingworld.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=gamingworld.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39f4110>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:51:25,695 - domain_scorer - INFO - Domain gamingworld.com scored: 39.78 (SEO: 70.6, Content: 0.0, Brandability: 75.0, Spam: 34.5)
+2025-07-14 17:51:25,856 - seo_analyzer - INFO - Analyzing SEO metrics for domain: fashiontrends.com
+2025-07-14 17:51:25,856 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:51:25,857 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:51:25,857 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:51:25,857 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:51:25,886 - content_analyzer - INFO - Analyzing content for domain: fashiontrends.com
+2025-07-14 17:51:55,922 - content_analyzer - ERROR - Error getting Wayback content for fashiontrends.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=fashiontrends.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a3995a50>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:51:56,056 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:51:56,147 - domain_scorer - INFO - Domain fashiontrends.com scored: 34.32 (SEO: 64.6, Content: 0.0, Brandability: 65.0, Spam: 45.0)
+2025-07-14 17:51:56,308 - seo_analyzer - INFO - Analyzing SEO metrics for domain: foodrecipes.org
+2025-07-14 17:51:56,309 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:51:56,309 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:51:56,309 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:51:56,310 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:51:56,346 - content_analyzer - INFO - Analyzing content for domain: foodrecipes.org
+2025-07-14 17:52:26,380 - content_analyzer - ERROR - Error getting Wayback content for foodrecipes.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=foodrecipes.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39e0cd0>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:52:26,553 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:52:26,643 - domain_scorer - INFO - Domain foodrecipes.org scored: 29.18 (SEO: 46.7, Content: 0.0, Brandability: 75.0, Spam: 45.0)
+2025-07-14 17:52:26,805 - seo_analyzer - INFO - Analyzing SEO metrics for domain: educationhub.info
+2025-07-14 17:52:26,806 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:52:26,806 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:52:26,807 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:52:26,807 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:52:26,834 - content_analyzer - INFO - Analyzing content for domain: educationhub.info
+2025-07-14 17:52:56,880 - content_analyzer - ERROR - Error getting Wayback content for educationhub.info: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=educationhub.info&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39e2290>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:52:57,218 - domain_scorer - INFO - Domain educationhub.info scored: 25.88 (SEO: 37.3, Content: 0.0, Brandability: 75.0, Spam: 40.5)
+2025-07-14 17:52:57,386 - seo_analyzer - INFO - Analyzing SEO metrics for domain: sciencenews.com
+2025-07-14 17:52:57,386 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:52:57,387 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:52:57,387 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:52:57,387 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:52:57,447 - content_analyzer - INFO - Analyzing content for domain: sciencenews.com
+2025-07-14 17:53:27,483 - content_analyzer - ERROR - Error getting Wayback content for sciencenews.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=sciencenews.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39e2f50>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:53:28,075 - domain_scorer - INFO - Domain sciencenews.com scored: 28.25 (SEO: 37.3, Content: 0.0, Brandability: 75.0, Spam: 16.5)
+2025-07-14 17:53:28,240 - seo_analyzer - INFO - Analyzing SEO metrics for domain: moviereview.org
+2025-07-14 17:53:28,240 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:53:28,240 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:53:28,240 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:53:28,240 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:53:28,268 - content_analyzer - INFO - Analyzing content for domain: moviereview.org
+2025-07-14 17:53:58,304 - content_analyzer - ERROR - Error getting Wayback content for moviereview.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=moviereview.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39d1f10>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:53:58,473 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:53:58,568 - domain_scorer - INFO - Domain moviereview.org scored: 31.56 (SEO: 44.8, Content: 0.0, Brandability: 75.0, Spam: 13.5)
+2025-07-14 17:53:58,731 - seo_analyzer - INFO - Analyzing SEO metrics for domain: homedesign.org
+2025-07-14 17:53:58,731 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:53:58,731 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:53:58,731 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:53:58,731 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:53:58,761 - content_analyzer - INFO - Analyzing content for domain: homedesign.org
+2025-07-14 17:54:28,796 - content_analyzer - ERROR - Error getting Wayback content for homedesign.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=homedesign.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39d2a10>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:54:29,219 - domain_scorer - INFO - Domain homedesign.org scored: 37.92 (SEO: 60.7, Content: 0.0, Brandability: 75.0, Spam: 13.5)
+2025-07-14 17:54:29,379 - seo_analyzer - INFO - Analyzing SEO metrics for domain: techblog2023.com
+2025-07-14 17:54:29,379 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:54:29,379 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:54:29,380 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:54:29,380 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:54:29,433 - seo_analyzer - INFO - Analyzing SEO metrics for domain: financeguide.org
+2025-07-14 17:54:29,433 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:54:29,434 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:54:29,434 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:54:29,434 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:54:29,467 - content_analyzer - INFO - Analyzing content for domain: financeguide.org
+2025-07-14 17:54:59,502 - content_analyzer - ERROR - Error getting Wayback content for financeguide.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=financeguide.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39e1e10>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:54:59,856 - domain_scorer - INFO - Domain financeguide.org scored: 42.42 (SEO: 70.1, Content: 0.0, Brandability: 75.0, Spam: 6.0)
+2025-07-14 17:55:00,017 - seo_analyzer - INFO - Analyzing SEO metrics for domain: historybook.net
+2025-07-14 17:55:00,017 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:55:00,018 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:55:00,018 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:55:00,018 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:55:00,046 - content_analyzer - INFO - Analyzing content for domain: historybook.net
+2025-07-14 17:55:30,080 - content_analyzer - ERROR - Error getting Wayback content for historybook.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=historybook.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a3995910>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:55:32,260 - content_analyzer - ERROR - Error assessing content quality: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 17:55:32,261 - content_analyzer - ERROR - Error extracting keywords: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 17:55:32,267 - content_analyzer - ERROR - Error calculating readability: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 17:55:32,378 - domain_scorer - INFO - Domain historybook.net scored: 51.80 (SEO: 57.1, Content: 50.0, Brandability: 75.0, Spam: 10.5)
+2025-07-14 17:55:32,543 - seo_analyzer - INFO - Analyzing SEO metrics for domain: artgallery.com
+2025-07-14 17:55:32,544 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:55:32,544 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:55:32,544 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:55:32,545 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:55:32,569 - content_analyzer - INFO - Analyzing content for domain: artgallery.com
+2025-07-14 17:56:02,604 - content_analyzer - ERROR - Error getting Wayback content for artgallery.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=artgallery.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39d0450>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:56:02,788 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:56:02,876 - domain_scorer - INFO - Domain artgallery.com scored: 36.79 (SEO: 60.1, Content: 0.0, Brandability: 75.0, Spam: 22.5)
+2025-07-14 17:56:03,037 - seo_analyzer - INFO - Analyzing SEO metrics for domain: carreview.net
+2025-07-14 17:56:03,037 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:56:03,037 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:56:03,038 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:56:03,038 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:56:03,062 - content_analyzer - INFO - Analyzing content for domain: carreview.net
+2025-07-14 17:56:33,098 - content_analyzer - ERROR - Error getting Wayback content for carreview.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=carreview.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39f6c50>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:56:33,243 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:56:33,328 - domain_scorer - INFO - Domain carreview.net scored: 25.04 (SEO: 37.7, Content: 0.0, Brandability: 75.0, Spam: 50.5)
+2025-07-14 17:56:33,490 - seo_analyzer - INFO - Analyzing SEO metrics for domain: sportsfan.com
+2025-07-14 17:56:33,490 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:56:33,490 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:56:33,490 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:56:33,490 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:56:33,522 - content_analyzer - INFO - Analyzing content for domain: sportsfan.com
+2025-07-14 17:57:03,557 - content_analyzer - ERROR - Error getting Wayback content for sportsfan.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=sportsfan.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39e2850>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:57:03,861 - domain_scorer - INFO - Domain sportsfan.com scored: 38.29 (SEO: 69.1, Content: 0.0, Brandability: 75.0, Spam: 43.5)
+2025-07-14 17:57:04,020 - seo_analyzer - INFO - Analyzing SEO metrics for domain: valuablesite.net
+2025-07-14 17:57:04,021 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:57:04,021 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:57:04,021 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:57:04,022 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:57:04,046 - content_analyzer - INFO - Analyzing content for domain: valuablesite.net
+2025-07-14 17:57:34,081 - content_analyzer - ERROR - Error getting Wayback content for valuablesite.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=valuablesite.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a37cd050>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:57:34,168 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:57:34,473 - domain_scorer - INFO - Domain valuablesite.net scored: 39.71 (SEO: 66.7, Content: 0.0, Brandability: 75.0, Spam: 19.5)
+2025-07-14 17:57:34,638 - seo_analyzer - INFO - Analyzing SEO metrics for domain: categorykeyword.org
+2025-07-14 17:57:34,638 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:57:34,638 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:57:34,639 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:57:34,639 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:57:34,662 - content_analyzer - INFO - Analyzing content for domain: categorykeyword.org
+2025-07-14 17:58:04,698 - content_analyzer - ERROR - Error getting Wayback content for categorykeyword.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=categorykeyword.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a37cfd50>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:58:05,755 - content_analyzer - ERROR - Error getting current content for categorykeyword.org: HTTPConnectionPool(host='categorykeyword.org', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f49a39d0bd0>: Failed to resolve 'categorykeyword.org' ([Errno -2] Name or service not known)"))
+2025-07-14 17:58:05,811 - domain_scorer - INFO - Domain categorykeyword.org scored: 34.33 (SEO: 56.3, Content: 0.0, Brandability: 65.0, Spam: 12.0)
+2025-07-14 17:58:05,976 - seo_analyzer - INFO - Analyzing SEO metrics for domain: premiumdomain.com
+2025-07-14 17:58:05,977 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:58:05,977 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:58:05,979 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:58:05,979 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:58:06,009 - content_analyzer - INFO - Analyzing content for domain: premiumdomain.com
+2025-07-14 17:58:36,043 - content_analyzer - ERROR - Error getting Wayback content for premiumdomain.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=premiumdomain.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a383d590>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:58:36,171 - content_analyzer - ERROR - Error assessing content quality: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 17:58:36,173 - content_analyzer - ERROR - Error extracting keywords: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 17:58:36,174 - content_analyzer - ERROR - Error calculating readability: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 17:58:36,278 - domain_scorer - INFO - Domain premiumdomain.com scored: 45.47 (SEO: 57.2, Content: 40.0, Brandability: 65.0, Spam: 24.0)
+2025-07-14 17:58:36,455 - seo_analyzer - INFO - Analyzing SEO metrics for domain: shortdomain.co
+2025-07-14 17:58:36,456 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:58:36,457 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:58:36,457 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:58:36,457 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:58:36,483 - content_analyzer - INFO - Analyzing content for domain: shortdomain.co
+2025-07-14 17:59:06,517 - content_analyzer - ERROR - Error getting Wayback content for shortdomain.co: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=shortdomain.co&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39fda90>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:59:06,536 - content_analyzer - ERROR - Error getting current content for shortdomain.co: HTTPConnectionPool(host='shortdomain.co', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f49a39f4910>: Failed to resolve 'shortdomain.co' ([Errno -2] Name or service not known)"))
+2025-07-14 17:59:06,622 - domain_scorer - INFO - Domain shortdomain.co scored: 25.39 (SEO: 36.9, Content: 0.0, Brandability: 75.0, Spam: 43.5)
+2025-07-14 17:59:06,785 - seo_analyzer - INFO - Analyzing SEO metrics for domain: brandableword.com
+2025-07-14 17:59:06,786 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:59:06,786 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:59:06,786 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:59:06,786 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:59:06,811 - content_analyzer - INFO - Analyzing content for domain: brandableword.com
+2025-07-14 17:59:36,846 - content_analyzer - ERROR - Error getting Wayback content for brandableword.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=brandableword.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39e0250>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 17:59:37,010 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 17:59:37,126 - domain_scorer - INFO - Domain brandableword.com scored: 32.93 (SEO: 56.9, Content: 0.0, Brandability: 65.0, Spam: 28.5)
+2025-07-14 17:59:37,300 - seo_analyzer - INFO - Analyzing SEO metrics for domain: brandname.org
+2025-07-14 17:59:37,300 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 17:59:37,300 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 17:59:37,300 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 17:59:37,300 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 17:59:37,329 - content_analyzer - INFO - Analyzing content for domain: brandname.org
+2025-07-14 18:00:07,365 - content_analyzer - ERROR - Error getting Wayback content for brandname.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=brandname.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a37cff50>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:00:07,566 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 18:00:07,664 - domain_scorer - INFO - Domain brandname.org scored: 27.64 (SEO: 41.7, Content: 0.0, Brandability: 75.0, Spam: 40.5)
+2025-07-14 18:00:07,828 - seo_analyzer - INFO - Analyzing SEO metrics for domain: industryname.org
+2025-07-14 18:00:07,828 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:00:07,829 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:00:07,829 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:00:07,829 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:00:07,857 - content_analyzer - INFO - Analyzing content for domain: industryname.org
+2025-07-14 18:00:37,892 - content_analyzer - ERROR - Error getting Wayback content for industryname.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=industryname.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39d2a10>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:00:37,957 - content_analyzer - ERROR - Error getting current content for industryname.org: HTTPConnectionPool(host='industryname.org', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f49a39d3b90>: Failed to resolve 'industryname.org' ([Errno -2] Name or service not known)"))
+2025-07-14 18:00:38,057 - domain_scorer - INFO - Domain industryname.org scored: 31.05 (SEO: 41.6, Content: 0.0, Brandability: 75.0, Spam: 6.0)
+2025-07-14 18:00:38,223 - seo_analyzer - INFO - Analyzing SEO metrics for domain: memorabledomain.net
+2025-07-14 18:00:38,224 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:00:38,224 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:00:38,225 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:00:38,225 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:00:38,253 - content_analyzer - INFO - Analyzing content for domain: memorabledomain.net
+2025-07-14 18:01:08,287 - content_analyzer - ERROR - Error getting Wayback content for memorabledomain.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=memorabledomain.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a3a0f550>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:01:08,312 - content_analyzer - ERROR - Error getting current content for memorabledomain.net: HTTPConnectionPool(host='memorabledomain.net', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f49a39fec10>: Failed to resolve 'memorabledomain.net' ([Errno -2] Name or service not known)"))
+2025-07-14 18:01:08,441 - domain_scorer - INFO - Domain memorabledomain.net scored: 22.07 (SEO: 30.6, Content: 0.0, Brandability: 65.0, Spam: 31.5)
+2025-07-14 18:01:08,605 - seo_analyzer - INFO - Analyzing SEO metrics for domain: keywordrich.com
+2025-07-14 18:01:08,605 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:01:08,606 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:01:08,606 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:01:08,607 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:01:08,634 - content_analyzer - INFO - Analyzing content for domain: keywordrich.com
+2025-07-14 18:01:38,669 - content_analyzer - ERROR - Error getting Wayback content for keywordrich.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=keywordrich.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a39ffa50>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:01:38,942 - domain_scorer - INFO - Domain keywordrich.com scored: 34.70 (SEO: 51.5, Content: 0.0, Brandability: 75.0, Spam: 9.0)
+2025-07-14 18:01:39,100 - seo_analyzer - INFO - Analyzing SEO metrics for domain: exactmatch.net
+2025-07-14 18:01:39,103 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:01:39,103 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:01:39,103 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:01:39,104 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:01:39,129 - content_analyzer - INFO - Analyzing content for domain: exactmatch.net
+2025-07-14 18:02:09,164 - content_analyzer - ERROR - Error getting Wayback content for exactmatch.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=exactmatch.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49a42ee9d0>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:02:09,489 - domain_scorer - INFO - Domain exactmatch.net scored: 30.32 (SEO: 46.8, Content: 0.0, Brandability: 75.0, Spam: 34.0)
+2025-07-14 18:05:22,872 - database - INFO - Database initialized successfully
+2025-07-14 18:07:46,033 - database - INFO - Database initialized successfully
+2025-07-14 18:33:40,361 - database - INFO - Database initialized successfully
+2025-07-14 18:40:50,313 - seo_analyzer - INFO - Analyzing SEO metrics for domain: techstartup.com
+2025-07-14 18:40:50,314 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:40:50,314 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:40:50,315 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:40:50,315 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:40:50,350 - content_analyzer - INFO - Analyzing content for domain: techstartup.com
+2025-07-14 18:41:20,387 - content_analyzer - ERROR - Error getting Wayback content for techstartup.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=techstartup.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5f460ac90>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:41:20,931 - trafilatura.core - WARNING - discarding data: None
+2025-07-14 18:41:21,028 - domain_scorer - INFO - Domain techstartup.com scored: 27.51 (SEO: 33.8, Content: 0.0, Brandability: 85.0, Spam: 30.0)
+2025-07-14 18:41:21,192 - seo_analyzer - INFO - Analyzing SEO metrics for domain: digitalmarketing.org
+2025-07-14 18:41:21,192 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:41:21,193 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:41:21,193 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:41:21,194 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:41:21,222 - content_analyzer - INFO - Analyzing content for domain: digitalmarketing.org
+2025-07-14 18:41:51,257 - content_analyzer - ERROR - Error getting Wayback content for digitalmarketing.org: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=digitalmarketing.org&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5eece7e50>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:41:51,820 - content_analyzer - ERROR - Error assessing content quality: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:41:51,820 - content_analyzer - ERROR - Error extracting keywords: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:41:51,821 - content_analyzer - ERROR - Error calculating readability: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:41:51,891 - domain_scorer - INFO - Domain digitalmarketing.org scored: 41.94 (SEO: 53.0, Content: 40.0, Brandability: 55.0, Spam: 22.5)
+2025-07-14 18:41:52,055 - seo_analyzer - INFO - Analyzing SEO metrics for domain: aitools.net
+2025-07-14 18:41:52,056 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:41:52,056 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:41:52,056 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:41:52,057 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:41:52,088 - content_analyzer - INFO - Analyzing content for domain: aitools.net
+2025-07-14 18:42:22,124 - content_analyzer - ERROR - Error getting Wayback content for aitools.net: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=aitools.net&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5eecf8fd0>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:42:23,057 - content_analyzer - ERROR - Error assessing content quality: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:42:23,060 - content_analyzer - ERROR - Error extracting keywords: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:42:23,067 - content_analyzer - ERROR - Error calculating readability: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:42:23,179 - domain_scorer - INFO - Domain aitools.net scored: 58.84 (SEO: 74.2, Content: 50.0, Brandability: 85.0, Spam: 28.5)
+2025-07-14 18:42:23,376 - seo_analyzer - INFO - Analyzing SEO metrics for domain: blockchain.info
+2025-07-14 18:42:23,377 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:42:23,377 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:42:23,377 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:42:23,377 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:42:23,423 - content_analyzer - INFO - Analyzing content for domain: blockchain.info
+2025-07-14 18:42:53,457 - content_analyzer - ERROR - Error getting Wayback content for blockchain.info: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=blockchain.info&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5eeb26a10>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:42:53,791 - domain_scorer - INFO - Domain blockchain.info scored: 36.15 (SEO: 63.8, Content: 0.0, Brandability: 75.0, Spam: 43.5)
+2025-07-14 18:42:53,956 - seo_analyzer - INFO - Analyzing SEO metrics for domain: ecommerce.biz
+2025-07-14 18:42:53,956 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:42:53,956 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:42:53,956 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:42:53,956 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:42:53,990 - content_analyzer - INFO - Analyzing content for domain: ecommerce.biz
+2025-07-14 18:43:24,029 - content_analyzer - ERROR - Error getting Wayback content for ecommerce.biz: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=ecommerce.biz&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5eeb1b210>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:43:24,078 - content_analyzer - ERROR - Error getting current content for ecommerce.biz: HTTPConnectionPool(host='ecommerce.biz', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff5eeb06a10>: Failed to resolve 'ecommerce.biz' ([Errno -3] Temporary failure in name resolution)"))
+2025-07-14 18:43:24,153 - domain_scorer - INFO - Domain ecommerce.biz scored: 29.17 (SEO: 45.5, Content: 0.0, Brandability: 75.0, Spam: 40.5)
+2025-07-14 18:43:24,331 - seo_analyzer - INFO - Analyzing SEO metrics for domain: webdesign.pro
+2025-07-14 18:43:24,331 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:43:24,332 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:43:24,332 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:43:24,332 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:43:24,370 - content_analyzer - INFO - Analyzing content for domain: webdesign.pro
+2025-07-14 18:43:54,404 - content_analyzer - ERROR - Error getting Wayback content for webdesign.pro: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=webdesign.pro&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5eeb07c10>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:43:54,505 - content_analyzer - ERROR - Error getting current content for webdesign.pro: HTTPConnectionPool(host='webdesign.pro', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff5eeba4ed0>: Failed to resolve 'webdesign.pro' ([Errno -2] Name or service not known)"))
+2025-07-14 18:43:54,772 - domain_scorer - INFO - Domain webdesign.pro scored: 38.18 (SEO: 61.2, Content: 0.0, Brandability: 85.0, Spam: 33.0)
+2025-07-14 18:43:54,946 - seo_analyzer - INFO - Analyzing SEO metrics for domain: seoservices.com
+2025-07-14 18:43:54,946 - seo_analyzer - INFO - Ahrefs API key not available, using mock data
+2025-07-14 18:43:54,946 - seo_analyzer - INFO - Moz API key not available, using mock data
+2025-07-14 18:43:54,946 - seo_analyzer - INFO - Majestic API key not available, using mock data
+2025-07-14 18:43:54,947 - seo_analyzer - INFO - Semrush API key not available, using mock data
+2025-07-14 18:43:54,976 - content_analyzer - INFO - Analyzing content for domain: seoservices.com
+2025-07-14 18:44:25,011 - content_analyzer - ERROR - Error getting Wayback content for seoservices.com: HTTPConnectionPool(host='web.archive.org', port=80): Max retries exceeded with url: /cdx/search/cdx?url=seoservices.com&output=json&limit=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5eeb01550>, 'Connection to web.archive.org timed out. (connect timeout=30)'))
+2025-07-14 18:44:27,606 - content_analyzer - ERROR - Error assessing content quality: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:44:27,608 - content_analyzer - ERROR - Error extracting keywords: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:44:27,615 - content_analyzer - ERROR - Error calculating readability: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/runner/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/share/nltk_data'
+    - '/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-07-14 18:44:27,696 - domain_scorer - INFO - Domain seoservices.com scored: 46.70 (SEO: 44.3, Content: 50.0, Brandability: 75.0, Spam: 10.0)
